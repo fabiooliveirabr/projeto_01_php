@@ -32,6 +32,9 @@
                     <p> $descricao </p>
                     <p> Setor: $setor </p>
                     <p> Categoria: $categoria </p>  
+                    <a href='confirmar_deletar.php?cod=$codigo'>
+                        <button>🗑️Deletar</button>
+                    </a>
                 </div>
             ";
         }
