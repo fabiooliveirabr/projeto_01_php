@@ -1,3 +1,14 @@
+<?php
+//isset = Verificar se existe algum elemento
+    if(isset($_GET['mensagem1'])){
+        echo "
+            <script>
+                alert('Cadastrado com sucesso');
+            </script>
+        ";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -15,7 +15,7 @@ $inserir = $pdo->prepare($sql);
 //  3º Passo - Tentar executar
 try{
     $inserir->execute();
-    echo "Cadastrado com sucesso!";
+    header("Location: index.php?mensagem1=OK");
 }catch(PDOException $erro){
     echo "Falha ao inserir" . $erro->getMessage();
 }
