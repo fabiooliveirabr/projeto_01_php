@@ -1,4 +1,5 @@
 <?php
+include "verificar_logado.php";
 //isset = Verificar se existe algum elemento
     if(isset($_GET['mensagem1'])){
         echo "
@@ -19,5 +20,6 @@
 <body>
     <a href="pagina_cadastrar.php">Cadastrar item</a> <br><br>
     <a href="pagina_gerenciar.php">Gerenciar itens</a> <br><br>
+    <a href="logout.php">Sair</a> <br><br>
 </body>
 </html>

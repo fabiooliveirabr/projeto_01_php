@@ -1,4 +1,5 @@
 <?php
+include "verificar_logado.php";
 $codigo = $_GET['cod'];
 
 echo "

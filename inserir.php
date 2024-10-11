@@ -1,4 +1,5 @@
 <?php
+include "verificar_logado.php";
 include "conexao.php";
  $desc = $_POST['descricao_digitada'];
  $setor = $_POST['setor_escolhido'];
