@@ -17,7 +17,7 @@
             <option value="Administrativo">Administrativo</option>
             <option value="Suporte">Suporte</option>
             <option value="Atendimento">Atendimento</option>
-            <option value="NAD">NAP</option>
+            <option value="NAD">NAD</option>
             <option value="NEP">NEP</option>
         </select> <br><br>
 

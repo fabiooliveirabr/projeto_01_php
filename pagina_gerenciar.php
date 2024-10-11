@@ -31,7 +31,11 @@
                     <h1> Nº $codigo </h1> <br>
                     <p> $descricao </p>
                     <p> Setor: $setor </p>
-                    <p> Categoria: $categoria </p>  
+                    <p> Categoria: $categoria </p>
+                    <a href='pagina_editar.php?cod=$codigo'>
+                        <button>✏️Editar</button>
+                    </a>
+                    
                     <a href='confirmar_deletar.php?cod=$codigo'>
                         <button>🗑️Deletar</button>
                     </a>

@@ -13,7 +13,7 @@ $deletar = $pdo->prepare($sql);
 try{
     $deletar->execute();
     echo "Deletado com sucesso!";
-    echo "<br> <a href='pagina_gerenciar.php'> Voltar </a>"
+    echo "<br> <a href='pagina_gerenciar.php'> Voltar </a>";
 }catch(PDOException $erro){
     echo "Falha ao deletar!" . $erro->getMessage();
 }
